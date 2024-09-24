@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shortly - URL Shortener</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+        crossorigin="anonymous" />
+
+
+
+
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="brand">Curtly</a>
+            <ul class="nav-links">
+                <li><a href="#" id="features-link">Features</a></li>
+                <li><a href="#" id="pricing-link">Pricing</a></li>
+                <li><a href="#" id="resources-link">Resources</a></li>
+
+
+
+
+            </ul>
+            <div class="auth-links">
+                <li><a href="#" id="login-link">Login</a></li>
+                <li class="auth-links">
+                    <button id="signup-link">Sign Up</button>
+                </li>
+
+            </div>
+        </div>
+    </nav>
+
+    <header class="header">
+        <div class="container header-container">
+            <div class="header-content">
+                <h1>Transform Your Link Management</h1>
+                <p>Increase your brand presence and obtain detailed information on link interaction.</p>
+                <a href="#" class="btn-primary">Get Started</a>
+            </div>
+            <div class="header-image">
+                <img src="imag 1.jpg" alt="Working on computer">
+            </div>
+        </div>
+    </header>
+
+    <main class="main">
+        <form id="shorten-form">
+            <input type="text" placeholder="Shorten a link here" id="url-input">
+            <button type="button" id="shorten-button">Shorten It!</button>
+        </form>
+    </main>
+
+    <section class="statistics">
+        <h2>Advanced Statistics</h2>
+        <p>Track how your links are performing across the web with our advanced statistics dashboard.</p>
+        <br>
+        <div class="statistics-boxs">
+            <div class="box box1">
+                <div class="box-icon">
+                    <img src="picture 1 logo.png" alt="Brand Recognition">
+                </div>
+                <h4>Brand Recognition</h4>
+                <p>Boost your brand recognition with each click. Generic links don’t mean a thing. Branded links help
+                    instill confidence in your content.</p>
+            </div>
+            <div class="box box2">
+                <div class="box-icon">
+                    <img src="picture 2 logo.png" alt="Detailed Records">
+                </div>
+                <h4>Detailed Records</h4>
+                <p>Gain insights into who is clicking your links. Knowing when and where people engage with your content
+                    helps inform better decisions.</p>
+            </div>
+            <div class="box box3">
+                <div class="box-icon">
+                    <img src="picture 3 logo.png" alt="Fully Customizable">
+                </div>
+                <h4>Fully Customizable</h4>
+                <p>Improve brand awareness and content discoverability through customizable links. Supercharging
+                    audience engagement.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="pre-footer-bar">
+        <div class="container">
+            <div class="content">
+                <h2 style="margin-bottom: 0;">Boost your links today</h2><br>
+                <button class="btn-primary">Get Started</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="brand">
+                <h1>Curtly</h1>
+            </div>
+            <div class="links">
+                <div class="column">
+                    <h2>Features</h2>
+                    <p>Link Shortening</p>
+                    <p>Branded Links</p>
+                    <p>Analytics</p>
+                </div>
+                <div class="column">
+                    <h2>Resources</h2>
+                    <p>Blog</p>
+                    <p>Developers</p>
+                    <p>Support</p>
+                </div>
+                <div class="column">
+                    <h2>About</h2>
+                    <p>Our Teams</p>
+                    <p>Careers</p>
+                    <p>Contact</p>
+                </div>
+            </div>
+            <div class="footer-social">
+                <a href="#" class="fab fa-facebook"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-pinterest"></a>
+                <a href="#" class="fab fa-instagram"></a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <section>
+                <div class="row">
+                    <h1>Our Features</h1>
+                </div>
+                <div class="row">
+                    <!-- Column One -->
+                    <div class="column">
+                        <div class="card">
+                            <div class="icon">
+                                <i class="fa fa-user"></i>
+                            </div>
+                            <h3>User Friendly</h3>
+                            <p>
+                                The user-friendly interface is designed for seamless navigation across multiple devices,
+                                making it accessible to all skill levels and enhancing user interaction.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Column Two -->
+                    <div class="column">
+                        <div class="card">
+                            <div class="icon">
+                                <i class="fa fa-shield"></i>
+                            </div>
+                            <h3>Super Secure</h3>
+                            <p>
+                                The user is safeguarded through advanced encryption technologies, robust security
+                                mechanisms, regular updates, industry-standard best practices, and secure authentication
+                                procedures.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Column Three -->
+                    <div class="column">
+                        <div class="card">
+                            <div class="icon">
+                                <i class="fa fa-headphones"></i> <!-- Font Awesome 4 equivalent -->
+                            </div>
+                            <h3>Quick Support</h3>
+                            <p>
+                                User-centric approach ensures fast responses, extensive information, personalized
+                                solutions, and continuous enhancement of support services through user input.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <!-- Modal for Pricing -->
+    <div id="pricing-modal1" class="modal1">
+        <div class="modal1-content">
+            <span class="close">&times;</span>
+            <div class="plansHero">
+                <h1 class="plansHero__title">Get the Curtly platform</h1>
+            </div>
+            <div class="planItem__container">
+
+                <!-- Free Plan -->
+                <div class="planItem planItem--free">
+                    <h3>Free</h3>
+                    <p>Free forever features for individual users</p>
+                    <div class="price">₹0</div>
+                    <div class="price1">per user/month</div>
+                    <div class="price2">No credit card required</div>
+                    <button class="button1">Get Started</button>
+                    <ul class="featureList">
+                        <li><span class="right"> Community Support</span></li>
+                        <li><span class="right"> 5 GB Cloud Storage</span></li>
+                        <li><span class="right"> Basic Analytics</span></li>
+                        <li><span class="right"> Single User</span></li>
+                        <li><span class="wrong"> Unlimited Login</span></li>
+                        <li><span class="wrong"> Newest First</span></li>
+                    </ul>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="planItem planItem--pro">
+                    <h3>Premium</h3>
+                    <p>Enhance team productivity and coordination</p>
+                    <div class="price">₹1499</div>
+                    <div class="price1">per user/month</div>
+                    <div class="price2">Billed annually at ₹17,988</div>
+                    <button class="button2">Buy Curtly Premium</button>
+                    <ul class="featureList">
+                        <li><span class="right"> Full Feature Access</span></li>
+                        <li><span class="right"> 24/7 Priority Support</span></li>
+                        <li><span class="right"> 50 GB Cloud Storage</span></li>
+                        <li><span class="right"> Advanced Analytics</span></li>
+                        <li><span class="wrong"> Unlimited Login</span></li>
+                        <li><span class="wrong"> Newest First</span></li>
+                    </ul>
+                </div>
+
+
+                <!-- Enterprise Plan -->
+                <div class="planItem planItem--entp">
+                    <h3>Ultimate</h3>
+                    <p>Organization wide security,compilance and planning</p>
+                    <div class="price">₹5999</div>
+                    <div class="price1">per user/month</div>
+                    <div class="price2">Billed annually at ₹71,988</div>
+                    <button class="button3">Buy Curtly Ultimate</button>
+                    <ul class="featureList">
+                        <li><span class="right"> Unlimited Feature Access</span></li>
+                        <li><span class="right"> Dedicated Support Manager</span></li>
+                        <li><span class="right"> Unlimited Cloud Storage</span></li>
+                        <li><span class="right"> Comprehensive Analytics</span></li>
+                        <li><span class="wrong"> Unlimited Login</span></li>
+                        <li><span class="wrong"> Newest First</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- resources page  -->
+    <section id="resources-section" class="blurry-background hidden">
+        <button id="close-resources-btn" class="close-btn">&times;</button>
+
+        <div class="resources-page">
+            <div class="resources-overlay"></div>
+            <div class="resources-container">
+                <h2>RESOURCES</h2>
+                <h3>Our Tools & Technologies. </h3>
+                <div class="resource-boxes">
+                    <div class="resource-box">
+                        <img src="html image.jpg" alt="Image 1" class="resource-image">
+                        <h4>HTML5</h4>
+                        <p>HTML5 is the latest version of Hypertext Markup Language, enhancing web content with new
+                            elements and attributes for more powerful and diverse web pages. </p>
+                        <a href="#" class="btn">See More</a>
+                    </div>
+                    <div class="resource-box">
+                        <img src="css image.jpg" alt="Image 2" class="resource-image">
+                        <h4>CSS3</h4>
+                        <p>CSS3 is the latest version of the Cascading Style Sheets language, offering new features such
+                            as rounded corners, shadows, gradients. </p>
+                        <a href="#" class="btn">See More</a>
+                    </div>
+                    <div class="resource-box">
+                        <img src="javascript image.jpg" alt="Image 3" class="resource-image">
+                        <h4>JAVASCRIPT</h4>
+                        <p>JavaScript is a crucial programming language that enhances website interactivity and is a
+                            vital component of web applications. </p>
+                        <a href="#" class="btn">See More</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- LOGIN PAGE -->
+
+    <section id="login-id" class="blurry-background hidden">
+        <button id="close-login-btn" class="close-btn">&times;</button>
+        <div class="login-page">
+            <div class="login-overlay"></div>
+            <div class="login-container">
+                <div class="login-content">
+                    <div class="login-image">
+                        <img src="login image.jpg" alt="Avatar Image">
+                    </div>
+                    <div class="login-form">
+                        <h2 class="title">Welcome</h2>
+                        <form action="index.html">
+                            <div class="input-div one">
+                                <div class="i">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="div">
+                                    <h5>Username</h5>
+                                    <input type="text" class="input">
+                                </div>
+                            </div>
+                            <div class="input-div pass">
+                                <div class="i">
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                                <div class="div">
+                                    <h5>Password</h5>
+                                    <input type="password" class="input">
+                                </div>
+                            </div>
+                            <a href="#">Forgot Password?</a>
+                            <input type="submit" class="btn" value="Login">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- SIGN-UP PAGE  -->
+
+    <section id="signup-id" class="blurry-background hidden">
+        <button id="close-signup-btn" class="close-btn">&times;</button>
+        <div class="signup-page">
+            <div class="signup-overlay"></div>
+            <div class="signup-container">
+                <div class="signup-content">
+                    <div class="signup-image">
+                        <img src="signup image.jpg" alt="Avatar Image">
+                    </div>
+                    <div class="signup-form">
+                        <h2 class="title">Sign up</h2>
+                        <form action="index.html">
+                            <div class="input-div one">
+                                <div class="i">
+                                    <i class="fas fa-user"></i>
+                                </div>
+                                <div class="div">
+                                    <h5>Username</h5>
+                                    <input type="text" class="input">
+                                </div>
+                            </div>
+                            <div class="input-div one">
+                                <div class="i">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="div">
+                                    <h5>Email</h5>
+                                    <input type="email" class="input">
+                                </div>
+                            </div>
+                            <div class="input-div pass">
+                                <div class="i">
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                                <div class="div">
+                                    <h5>Password</h5>
+                                    <input type="password" class="input">
+                                </div>
+                            </div>
+                            <div class="input-div pass">
+                                <div class="i">
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                                <div class="div">
+                                    <h5>Retype Password</h5>
+                                    <input type="password" class="input">
+                                </div>
+                            </div>
+                            <br></br>
+                            <input type="submit" class="btn" value="Sign Up">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
